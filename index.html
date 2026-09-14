@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/local.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700" rel="stylesheet">
+    <title>ECE 133A: Applied Numerical Computing</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-10">
+          <h1>ECE 133A: Applied Numerical Computing</h1>
+          <h3>UCLA, Fall 2026</h3>
+
+          <p>ECE 133A introduces the methods and tools of numerical computing. We will study how computers represent and approximate mathematical problems, with particular attention to accuracy, stability, efficiency, and practical implementation.</p>
+
+          <h2>📌 Course Information</h2>
+
+          <div class="meeting-grid" aria-label="Meeting times and locations">
+            <section class="meeting-card lecture-card">
+              <p class="meeting-label">Lecture</p>
+              <p><strong>Tuesday &amp; Thursday</strong><br>8:00–9:50 AM<br><span class="muted">Room to be announced</span></p>
+            </section>
+            <section class="meeting-card discussion-card">
+              <p class="meeting-label">Discussion</p>
+              <p><strong>Friday</strong><br>8:00–9:50 AM · Boelter 5440<br>10:00–11:50 AM · Boelter 5440<br>12:00–1:50 PM · Boelter 5280</p>
+            </section>
+          </div>
+
+          <p><strong>Instructor:</strong> <a href="https://lizizhikevich.github.io/">Liz Izhikevich</a>. Office hours: by appointment or as posted on Ed Discussion.</p>
+          <p><strong>Communication:</strong> Announcements and questions will be handled through Ed Discussion.</p>
+          <p><strong>Submissions:</strong> Assignments and project materials will be submitted through Gradescope. Enrollment details will be shared at the start of the quarter.</p>
+
+          <h2>🗓️ Tentative Topics and Schedule</h2>
+          <p>The schedule below uses the course’s prior, at-a-glance schedule style. Tuesday and Thursday are lecture meetings; the gold Friday column is reserved for discussion activities and the weekly quiz.</p>
+
+          <div class="schedule-key" aria-label="Schedule legend">
+            <span class="key-item lecture-key">Lecture</span>
+            <span class="key-item discussion-key">Discussion + quiz</span>
+          </div>
+
+          <div class="schedule" role="table" aria-label="Tentative Fall 2026 schedule">
+            <div class="schedule-head" role="row">
+              <div role="columnheader">Tuesday · Lecture</div>
+              <div role="columnheader">Thursday · Lecture</div>
+              <div class="discussion-heading" role="columnheader">Friday · Discussion</div>
+            </div>
+
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 0</p>
+              <article class="schedule-item empty" role="cell"><p>No lecture</p></article>
+              <article class="schedule-item" role="cell"><h4>Sep 24</h4><p>Course overview; numerical computing and MATLAB refresher</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Sep 25</h4><p>Discussion activity; Quiz 1</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 1</p>
+              <article class="schedule-item" role="cell"><h4>Sep 29</h4><p>Floating-point representation and roundoff error</p></article>
+              <article class="schedule-item" role="cell"><h4>Oct 1</h4><p>Error analysis and numerical accuracy</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Oct 2</h4><p>Discussion activity; Quiz 2</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 2</p>
+              <article class="schedule-item" role="cell"><h4>Oct 6</h4><p>Linear systems and Gaussian elimination</p></article>
+              <article class="schedule-item" role="cell"><h4>Oct 8</h4><p>LU factorization and computational complexity</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Oct 9</h4><p>Discussion activity; Quiz 3</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 3</p>
+              <article class="schedule-item" role="cell"><h4>Oct 13</h4><p>Conditioning and stability</p></article>
+              <article class="schedule-item" role="cell"><h4>Oct 15</h4><p>Iterative methods for linear equations</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Oct 16</h4><p>Discussion activity; Quiz 4</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 4</p>
+              <article class="schedule-item" role="cell"><h4>Oct 20</h4><p>Interpolation and approximation</p></article>
+              <article class="schedule-item" role="cell"><h4>Oct 22</h4><p>Splines and polynomial approximation</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Oct 23</h4><p>Discussion activity; Quiz 5</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 5</p>
+              <article class="schedule-item" role="cell"><h4>Oct 27</h4><p>Zeros and roots of nonlinear equations</p></article>
+              <article class="schedule-item" role="cell"><h4>Oct 29</h4><p>Newton’s method and convergence</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Oct 30</h4><p>Discussion activity; Quiz 6</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 6</p>
+              <article class="schedule-item" role="cell"><h4>Nov 3</h4><p>Least squares and QR factorization</p></article>
+              <article class="schedule-item" role="cell"><h4>Nov 5</h4><p>Statistical interpretation of least squares</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Nov 6</h4><p>Discussion activity; Quiz 7</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 7</p>
+              <article class="schedule-item" role="cell"><h4>Nov 10</h4><p>Numerical optimization</p></article>
+              <article class="schedule-item" role="cell"><h4>Nov 12</h4><p>Nonlinear least squares</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Nov 13</h4><p>Discussion activity; Quiz 8</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 8</p>
+              <article class="schedule-item" role="cell"><h4>Nov 17</h4><p>Numerical quadrature</p></article>
+              <article class="schedule-item" role="cell"><h4>Nov 19</h4><p>Ordinary differential equations</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Nov 20</h4><p>Discussion activity; Quiz 9</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 9</p>
+              <article class="schedule-item" role="cell"><h4>Nov 24</h4><p>Eigenvalues and singular values</p></article>
+              <article class="schedule-item holiday" role="cell"><h4>Nov 26</h4><p>Thanksgiving holiday — no lecture</p></article>
+              <article class="schedule-item discussion-item holiday" role="cell"><h4>Nov 27</h4><p>Thanksgiving holiday — no discussion</p></article>
+            </div>
+            <div class="schedule-week" role="rowgroup">
+              <p class="week-label">Week 10</p>
+              <article class="schedule-item" role="cell"><h4>Dec 1</h4><p>QR algorithm and numerical applications</p></article>
+              <article class="schedule-item" role="cell"><h4>Dec 3</h4><p>Course synthesis and final-project workshop</p></article>
+              <article class="schedule-item discussion-item" role="cell"><h4>Dec 4</h4><p>Discussion activity; Quiz 10</p></article>
+            </div>
+          </div>
+
+          <h2>🚩 Course Structure</h2>
+          <p>Final course grades are based on the following three components:</p>
+
+          <section class="grading-item">
+            <h4>📝 Quizzes (70%)</h4>
+            <p>There will be one quiz in every discussion section. Your two lowest quiz scores will be dropped. Quiz scores will be curved at the end of the quarter so that at least 25% of students receive above 90% in this category.</p>
+          </section>
+          <section class="grading-item">
+            <h4>💬 In-person discussion activities (20%)</h4>
+            <p>Discussion activities are completed in person during Friday discussion. Up to two activity scores may be dropped.</p>
+          </section>
+          <section class="grading-item">
+            <h4>🔬 Final project (10%)</h4>
+            <p>Students will complete a final project applying numerical-computing methods to an engineering problem. Project requirements and milestones will be announced during the quarter.</p>
+          </section>
+
+          <h2>⚙️ Administrivia</h2>
+          <p>All submitted work must be original work. Please speak with the instructor before using generative AI tools for course work or the final project.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
