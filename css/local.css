@@ -16,6 +16,7 @@ p, li { font-size: .97rem; line-height: 1.55; }
 a { color: var(--ucla-blue); }
 a:hover { color: #b87500; }
 .muted { color: var(--muted); }
+.development-banner { background: #fff1c9; border: 1px solid #e2b949; border-left: 5px solid var(--ucla-gold); border-radius: 4px; color: #5d4500; font-weight: 600; margin: 1.5rem 0 1rem; padding: .7rem .9rem; }
 
 .meeting-grid { display: grid; gap: 1rem; grid-template-columns: 1fr 1.45fr; margin: 1rem 0 1.2rem; }
 .meeting-card { border-left: 5px solid var(--ucla-blue); border-radius: 3px; box-shadow: 0 1px 5px rgba(0,0,0,.08); padding: .8rem 1rem; }
