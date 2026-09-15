@@ -42,6 +42,8 @@ a:hover { color: #b87500; }
 .schedule-item p { font-size: .88rem; line-height: 1.35; margin: 0; }
 .discussion-item { background: #fffaf0; }
 .discussion-item h4 { color: #896000; }
+.virtual-item { background: #f4effa; border-top: 3px solid #8265a7; }
+.virtual-item h4 { color: #614b7e; }
 .empty, .holiday { background: #f4f4f4; color: #707070; }
 .holiday h4 { color: #707070; }
 
