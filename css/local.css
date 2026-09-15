@@ -23,6 +23,7 @@ a:hover { color: #b87500; }
 .discussion-card { background: #fff8e8; border-color: var(--ucla-gold); }
 .meeting-card p { margin: 0; }
 .meeting-label { color: var(--ucla-dark-blue); font-size: .76rem !important; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.meeting-note { color: var(--muted); font-size: .72rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
 .discussion-card .meeting-label { color: #8a6200; }
 
 .schedule-key { display: flex; flex-wrap: wrap; gap: .75rem; margin: .85rem 0; }
