@@ -30,7 +30,7 @@ a:hover { color: #b87500; }
 .lecture-key { background: #e8f2f9; color: var(--ucla-dark-blue); }
 .discussion-key { background: #fff1c9; color: #785300; }
 .schedule { border: 1px solid var(--rule); border-radius: 5px; margin-bottom: 1.5rem; overflow: hidden; }
-.schedule-head, .schedule-week { display: grid; grid-template-columns: .23fr minmax(0, 1fr) .23fr minmax(0, 1fr) minmax(0, 1fr); }
+.schedule-head, .schedule-week { display: grid; grid-template-columns: .4fr minmax(0, 1fr) .4fr minmax(0, 1fr) minmax(0, 1fr); }
 .schedule-head { background: var(--ucla-dark-blue); color: white; font-size: .9rem; font-weight: 600; }
 .schedule-head div { padding: .65rem .8rem; }
 .schedule-head .discussion-heading { background: #9d7000; }
@@ -38,6 +38,9 @@ a:hover { color: #b87500; }
 .schedule-week { border-top: 1px solid var(--rule); position: relative; }
 .week-label { background: #f3f6f8; border-bottom: 1px solid var(--rule); color: #516572; font-size: .76rem; font-weight: 700; grid-column: 1 / -1; letter-spacing: .04em; margin: 0; padding: .25rem .8rem; text-transform: uppercase; }
 .schedule-filler { background: #f3f6f8; border-right: 1px solid var(--rule); }
+.office-hours { align-items: center; background: #e8f2f9; color: var(--ucla-dark-blue); display: flex; justify-content: center; padding: .35rem .15rem; text-align: center; }
+.office-hours p, .holiday-filler p { font-size: .68rem; line-height: 1.25; margin: 0; }
+.holiday-filler { align-items: center; background: #f4f4f4; color: #707070; display: flex; justify-content: center; padding: .35rem .15rem; text-align: center; }
 .schedule-item { border-right: 1px solid var(--rule); min-height: 100px; padding: .75rem .8rem; }
 .schedule-item:last-child { border-right: 0; }
 .schedule-item h4 { color: var(--ucla-dark-blue); }
